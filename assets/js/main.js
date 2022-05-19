@@ -20,8 +20,6 @@ countryButtonElement.addEventListener("click", function (amebo) {
   verified.innerHTML = "";
   let seconds;
   let intervaliId;
-  let intViewportWidth
-  let timeRemaining;
   const gameDuration = 49;
   function startTimer(seconds) {
       intervalId = setInterval(countDown, 1000);
@@ -38,7 +36,6 @@ countryButtonElement.addEventListener("click", function (amebo) {
             } else {
                 seconds = seconds -= 1;
             }
-            timeRemaining = seconds;
         }
     }
     options.innerHTML = "";
