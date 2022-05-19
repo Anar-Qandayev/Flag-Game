@@ -1,0 +1,29 @@
+body{
+    background-image: url("https://www.design.svgbackgrounds.com/wp-content/uploads/2021/05/protruding-squares-orange-background.png");
+}
+.section{
+ text-align: center;
+}
+.section h1{
+    color: black;
+    font-size: 28px;
+    font-family: cursive;
+    font-weight: bold;
+}
+.section button{
+    font-size: 20px;
+    background-color: black;
+    color: white;
+}
+.image img{
+    width: 800px;
+    height: 350px
+}
+.image h2{
+    color: black;
+    font-weight: bold;
+}
+#options{
+    display: flex;
+    padding-left: 500px;
+}
